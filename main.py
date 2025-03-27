@@ -1,7 +1,9 @@
 # 애플리케이션에 필요한 라이브러리 추가
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QMessageBox, QPlainTextEdit, QHBoxLayout
 # 애플리케이션 핸들러와 빈 GUI 위젯
+
+from PyQt5.QtGui import QIcon
 
 class Calculator(QWidget):
 	#QWidget 클래스를 상속받아서 클래스를 정의
